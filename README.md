@@ -1,68 +1,106 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <br />
+  <a href="https://storybook2023.netlify.app/"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--AU4TEK0l--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9ype7suwe1wjzz4x3idl.png" alt="storybook" width="500" height="200"></a>
+  <br />
+  Streamlining UI Creation with Storybook
+  <br />
+</h1>
 
-## Available Scripts
+<p align="center">
+  <a href="https://storybook2023.netlify.app/">Live Website</a>
+</p>
+<hr />
+<br />
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#how-to-run-locally">How To Run Locally</a></li>
+    <li><a href="#key-features">Key Features</a></li>
+    <li><a href="#key-features">Tech Stack</a></li>
+  </ol>
+</details>
 
-### `yarn start`
+<br />
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- ABOUT THE PROJECT -->
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## **🎙 About The Project**
 
-### `yarn test`
+### Description
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* This project, uses Storybook,a powerful UI development tool.
+* It contains three key components: buttons, inputs, and subscriptions.
+* The pre-built components and accompanying documentation make it easy to get started, while customization options allow one to tailor the components to their specific needs. 
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<p align="center">
+<img width="100%" src="https://user-images.githubusercontent.com/84843461/227114898-147ea4e6-ae66-42ef-a1d7-2645dcafbcbc.gif" alt="storybook" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+</p>
 
-### `yarn eject`
+<br />
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<!-- HOW TO USE -->
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## **🤔 How To Run Locally**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Clone the project
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+  git clone https://github.com/psankhe28/react-storybook-eg
+```
 
-## Learn More
+Go to the project directory
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+  cd react-storybook-eg
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Install dependencies
 
-### Code Splitting
+```bash
+  npm install
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Open it in the browser
 
-### Analyzing the Bundle Size
+```bash
+  npm run storybook
+```
+<br />
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+<!-- KEY FEATURES -->
 
-### Making a Progressive Web App
+## **🎖 Key Features**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- Dedicated environment for UI component testing and development.
+- It is user-friendly and straightforward to begin using.
+- Customizing the components is a simple process.
 
-### Advanced Configuration
+<br />
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+<!-- COMPONENTS -->
 
-### Deployment
+## **🧩 Components**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+- [Button](https://storybook2023.netlify.app/?path=/story/form-button--primary)
+- [Input](https://storybook2023.netlify.app/?path=/story/form-input--small)
+- [Subscription](https://storybook2023.netlify.app/?path=/story/form-subscription--primary-subscription)
 
-### `yarn build` fails to minify
+<br />
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<!-- BUILT WITH -->
+
+## **⚙️ Built With**
+
+- Storybook
+- React JS
+- HTML
+- CSS
+- JavaScript
+
+<br />
